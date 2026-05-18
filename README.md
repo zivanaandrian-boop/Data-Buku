@@ -10,7 +10,6 @@ Aplikasi CRUD sederhana menggunakan **Laravel 11**.
 ![Penerbit](screenshotdatabuku/screenshotpenerbit.png)
 </details>
 
-
 ![Buku](screenshotdatabuku/screenshotbuku.png)
 </details>
 

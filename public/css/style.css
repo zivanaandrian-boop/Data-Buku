@@ -1,0 +1,129 @@
+/* ===== GLOBAL ===== */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #fff9e6; /* kuning pastel background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    width: 85%;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* ===== JUDUL ===== */
+h1 {
+    text-align: center;
+    color: #d6a100;
+    margin-bottom: 20px;
+}
+
+/* ===== NAVBAR ===== */
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    background: #ffd966;
+    color: #5a4500;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    background: #ffcc33;
+    transform: translateY(-2px);
+}
+
+/* ===== TOMBOL ===== */
+.tombol {
+    display: inline-block;
+    margin: 10px 0;
+    background: #ffe08a;
+    color: #5a4500;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.tombol:hover {
+    background: #ffd24d;
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+th {
+    background: #ffd966;
+    color: #5a4500;
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #f0e6c8;
+}
+
+tr:nth-child(even) {
+    background: #fff7d6;
+}
+
+tr:hover {
+    background: #fff1b8;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    margin-top: 25px;
+    text-align: center;
+    color: #a88b2a;
+    font-size: 13px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #5a4500;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #f0d98c;
+    background: #fffdf5;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #ffd24d;
+}

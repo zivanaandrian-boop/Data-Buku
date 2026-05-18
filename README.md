@@ -4,14 +4,11 @@ Aplikasi CRUD sederhana menggunakan **Laravel 11**.
 
 ## 🖥️ Tampilan Aplikasi
 
-### Halaman Kategori
-![Kategori](screenshot.png)
+![Kategori](screenshot-data-buku/screenshot.png)
 
-### Halaman Penerbit
-![Penerbit](screenshot-penerbit.png)
+![Penerbit](screenshot-data-buku/screenshot-penerbit.png)
 
-### Halaman Buku
-![Buku](screenshot-buku.png)
+![Buku](screenshot-data-buku/screenshot-buku.png)
 
 ## 🛠️ Teknologi
 - Laravel 11
